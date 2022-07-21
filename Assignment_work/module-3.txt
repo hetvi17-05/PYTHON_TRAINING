@@ -1,0 +1,34 @@
+1) What is List? How will you reverse a list?
+
+--> List which is contain similar and dis-similar data elements.
+      List is represent by [ ].Reversed () method. It is Python’s built-in method that reverses all types of
+      sequences such a list, string, tuple, etc.
+2) How will you remove last object from a list?
+
+--> Using pop( ) by default it will remove last element from the list.
+
+3) Suppose list1 is [2, 33, 222, 14, and 25], what is list1 [-1]?
+
+--> 25.
+
+4) Differentiate between append () and extend () methods?
+
+--> append( ) : add element in existing list 
+		syntax:
+			list_var.append(element).
+
+--> extend( ): add elements in extending list
+		syntax:
+			list_var.extend(element).
+
+5) What is tuple? Difference between list and tuple.
+
+--> Tuple is an immutable so, we can remove value in tuple. 	The Key Difference between a List and a Tuple. 
+      The main difference between lists and tuples is that lists are mutable and tuples are immutable.
+
+6) How will you create a dictionary using tuples in python?
+
+-->To create a dictionary from list of tuples in Python, where each tuple is of the form (key, value), pass
+     the list of tuples as argument to dict( ) builtin function.
+
+
