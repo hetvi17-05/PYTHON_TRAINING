@@ -1,0 +1,89 @@
+--> virtualenv -p python  myenv scrapy
+--> cd myenv_scrapy
+--> Scripts\activate
+--> pip install scrapy
+--> scrapy startproject myproject
+--> cd myproject
+--> scrapy genspider mysite mysite.com
+
+-----what is spiders ?--------
+
+--> spider is a program that dowmloads content from web sites or a given URL
+
+Step 4: 
+
+SYNTAX :
+
+import scrapy
+class MydummySpider(scrapy.Spider):
+	name = 'mydummy'
+	allowed_domains - ['dummy.com']
+	start_urls = ['http://dummy.com/']
+	
+	def parse(self,response):
+	pass
+
+Step 5 : creating new spider 	#cd<projectname> , #scrapy genspider <domain name> <domain.com>
+
+Step 6 : scrapy shell   EG. #scrapy shell
+
+after that write scrapy shell and link  eg: amazon.in (open amazon.in and right click - inspect-) 
+---> response.css("tittle::text").get()
+----> exit() 
+---> response.css("a::text").getall()  ---> (all text will be display )
+----> response.css("a::attr(href)").getall()  --> (by writing this will get all href images)
+---> response.css("div#images a::text").getall()
+----> respones.css("div#images a::attr(text)").getall()  #images hoi tyre (#) no use thay nai to (.) no use thay. 
+----> respones.css("div#images a::attr(href)").getall() --> ['image1.html'] 
+(jyre href lakhiye tyre khali link ave ane ane with text lakhiye tyre name sathe ave link)
+
+
+
+index.html 
+--------------
+
+Click Here for add Data  ->  open add user page 
+
+
+Welcome   name, 							Logout (maintain session)
+
+Sr.no		name		email		subject            city     	   Action 
+1	    Anjali	 anjali@gmail.com	python,Android	  cityname        Edit delete 
+
+
+	--------------- : search 
+
+edit - open data in updateData.html and update data 
+delete - delete respective data 
+search by name : 
+
+-----------------------------------
+adduser.html 
+-----------------------------------
+name 
+email 
+gender   : radio button 
+subject  : checkbox
+city     : dropdown 
+address  : textarea 
+
+SUBMIT 
+
+
+---------------------------------------
+on submit click event -> it will redirect  login page 
+
+-------------------------------
+login.html 
+
+email 
+city  
+
+login -> on successfully logged -> redirect to index.html 
+
+
+
+
+
+
+

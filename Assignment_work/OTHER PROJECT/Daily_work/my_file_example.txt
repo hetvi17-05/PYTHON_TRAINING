@@ -1,0 +1,5 @@
+
+ my file practical
+ this file is created by me
+ hello all
+ my python language

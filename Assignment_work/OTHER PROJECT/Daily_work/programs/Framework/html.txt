@@ -1,0 +1,23 @@
+1)  what is html?
+
+-> HYPER TEXT MARKUP LANGUAGE.
+
+-> HTML - which is encoded with tags .
+
+-> there are two types of tags.
+
+        - singular tag : 
+                <hr>
+                <br>
+                <img>
+
+        - paired tag :
+          except above 3 tags all tags are paired tag.
+
+-> tr:
+-> td:
+-> th:
+-> margin:
+-> padding:
+-> post:
+-> get:

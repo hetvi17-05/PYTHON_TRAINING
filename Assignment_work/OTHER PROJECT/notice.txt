@@ -1,0 +1,14 @@
+"def view_notice(request,pk):
+    if "email" in request.session:
+        uid = User.objects.get(email = request.session['email'])
+        mid = Member.objects.get(user_id = uid)
+        notice_id = Notice.objects.get(id = pk)
+        notice_id.n_view_count +=1
+        context = {
+            'uid':uid,
+            'mid':mid,
+        }
+        return render(request,"myapp/MemberApp/m_specific_profile.html",context)
+"""
+
+   path('view-notice/<int:pk>',views.view_notice,name="view_notice"),

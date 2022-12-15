@@ -1,0 +1,51 @@
+
+
+--> Create folder django_project ---- remove path ---- write cmd---cmd open.
+
+1) pip install virtualenv
+2) virtualenv -p python myenv
+3) pip install django
+4) django-admin startproject myproject
+5) cd myproject
+6) python manage.py startapp myapp
+7) python manage.py migrate
+8) python manage.py runserver
+
+--> Open folder in visual stuido -- open django_project folder -- write in settings.py (INSTALLED APP : in last line 'myapp', )
+--> settings.py :  main configuration file of the application
+________________________________________________________________________________________________________
+
+Django framework : using of django web framework we can devlop web applications.
+
+	- django web framework build in python programming.
+	- django is a MVT based architecture
+	- MVT : model view template
+	- model : database
+	- view : buisness logics
+	- template : designing (html)
+____________________________________________________
+
+--> To open again project : open folder ---- open cmd--- write : Scripts\activate ------ cd myproject-----
+python manage.py runserver if error comes write pip install django then runserver
+
+*****************PAYMENT INTEGRATION FOR DEVELOPER STEPS**************************
+
+LOGIN WITH QR CODE
+DEVELOPER SETTINGS
+API KEYS
+GENERATE NOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
